@@ -1,6 +1,7 @@
 {
   "name": "gymme-landing",
   "version": "0.1.0",
+  "homepage": "https://LjiljaMojso.github.io/gymme-landing-starter/tree/fitnessClub",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -15,7 +16,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -38,6 +41,7 @@
   "devDependencies": {
     "aos": "^2.3.4",
     "autoprefixer": "^10.4.8",
+    "gh-pages": "^6.1.0",
     "postcss": "^8.4.16",
     "react-icons": "^4.4.0",
     "swiper": "^8.3.2",
